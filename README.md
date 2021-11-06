@@ -4,7 +4,7 @@ JSDB is a Databse module for NodeJS made by Suni29, its easy to use & has a lot 
 ## How to use JSDB?
 Here is some code examples how to use it.
 ```js
-const Database = require('@Suni29/jsdb')
+const Database = require('@suni29/jsdb')
 const db = new Database('./db.json');
 
 db.set('key', 'value')
@@ -27,7 +27,7 @@ db.list() // Returns a stringified JSON text, ex.: "{"key":"value"}"
 ## Options
 There is not much options currently but in the future I will add more.
 ```js
-const Database = require('@Suni29/jsdb')
+const Database = require('@suni29/jsdb')
 const db = new Database('./db.json', {
   debug: true / false // Turns on or off the debug log in the console.
 });
@@ -36,7 +36,7 @@ const db = new Database('./db.json', {
 ## Installation
 The installation process is very easy, just one command.
 ```bash
-$ npm i @Suni29/jsdb
+$ npm i @suni29/jsdb
 ```
 
 ## Contact
