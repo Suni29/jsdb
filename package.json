@@ -4,7 +4,7 @@
   "description": "JSDB made by Suni29",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "exit 0"
   },
   "repository": {
     "type": "git",
