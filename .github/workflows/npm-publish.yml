@@ -28,6 +28,7 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
+      - run: cat $NPM_CONFIG_USERCONFIG
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: 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
