@@ -1,0 +1,30 @@
+{
+  "name": "@suni29/jsdb",
+  "version": "1.0.0",
+  "description": "JSDB made by Suni29",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suni29/jsdb.git"
+  },
+  "keywords": [
+    "database",
+    "db",
+    "jsdb"
+  ],
+  "author": {
+    "name": "Suni29",
+    "email": "suni29.gp@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suni29/jsdb/issues"
+  },
+  "homepage": "https://github.com/Suni29/jsdb#readme",
+  "publishConfig": {
+    "@Suni29:registry": "https://npm.pkg.github.com/"
+  }
+}
